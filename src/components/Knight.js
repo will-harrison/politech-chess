@@ -6,7 +6,7 @@ export default class Knight extends Component {
   render () {
     return (
       <K>
-        <img src={knight} alt='knight' />
+        <Img src={knight} alt='knight' />
       </K>
     )
   }
@@ -14,4 +14,8 @@ export default class Knight extends Component {
 
 const K = styled.div`
   z-index: 10;
+`
+const Img = styled.img`
+  height: 100px;
+  width: 100px;
 `

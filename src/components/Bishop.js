@@ -6,7 +6,7 @@ export default class Bishop extends Component {
   render () {
     return (
       <B>
-        <img src={bishop} alt='knight' />
+        <Img src={bishop} alt='knight' />
       </B>
     )
   }
@@ -14,4 +14,8 @@ export default class Bishop extends Component {
 
 const B = styled.div`
   z-index: 10;
+`
+const Img = styled.img`
+  height: 100px;
+  width: 100px;
 `

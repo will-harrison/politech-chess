@@ -8,10 +8,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Board />
+        <Board>
+          <Bishop position={{x: 1, y:1}} />
+          <Knight position={{x: 2, y: 2}} />
+        </Board>
       
-        <Bishop position={{x: 1, y:1}} />
-        <Knight position={{x: 2, y: 2}} />
       </div>
     );
   }

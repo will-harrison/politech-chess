@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import Knight from './Knight'
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
         <Box />
         <Box />
         <Box />
+          <Knight />
         <Box />
         <Box />
         <Box />
@@ -89,6 +91,7 @@ const Board = styled.div.attrs({ className: 'avenir' }) `
   grid-auto-flow: row;
   justify-content: center;
   align-items: center;
+  z-index: -1;
 `
 
 const Box = styled.div`
